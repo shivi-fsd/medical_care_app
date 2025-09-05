@@ -3,15 +3,17 @@ body,html{
 	margin: 0;
 	background: rgb(44, 47, 59);
    background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
-	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+	background: linear-gradient(to right, rgb(50, 101, 141), rgb(25, 56, 119), rgb(20, 20, 102));
 }
 
 .chat{
 	margin-top: auto;
 	margin-bottom: auto;
+	margin-right: 200px;
 }
 .card{
-	height: 500px;
+	height: 400px;
+	width: 800px;
 	border-radius: 15px !important;
 	background-color: rgba(0,0,0,0.4) !important;
 }
@@ -48,7 +50,7 @@ border-radius: 0 0 15px 15px !important;
 	background-color: rgba(0,0,0,0.3) !important;
 	border:0 !important;
 	color:white !important;
-	height: 60px !important;
+	height: 40px !important;
 	overflow-y: auto;
 }
 	.type_msg:focus{
